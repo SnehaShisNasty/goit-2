@@ -1,5 +1,69 @@
-.verb-span {
+.verb-span-header {
   color: #2196f3;
   font-family: Raleway;
   font-size: 26px;
+  font-weight: 700;
+}
+.verb-span-1-header {
+  color: black;
+  font-size: 26px;
+  font-family: Raleway;
+  font-weight: 700;
+}
+.nav-li-1 {
+  color: #2196f3;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  text-decoration: nove;
+}
+.nav-li-2 {
+  color: black;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.nav-li-3 {
+  color: black;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.contacts-email {
+  color: #757575;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+}
+.contacts-telefon {
+  color: #757575;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+}
+header {
+  background-color: white;
+}
+.up-main {
+  background-color: #2f303a;
+}
+.h-section-1 {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  color: white;
+  text-align: center;
+}
+.button-section-1 {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
+  font-size: 16px;
+  font-family: Roboto;
+  color: white;
+}
+footer {
+  background: #2f303a;
 }
