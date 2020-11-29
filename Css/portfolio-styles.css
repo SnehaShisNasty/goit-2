@@ -1,0 +1,81 @@
+a {
+  text-decoration: none;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.verb-span-header {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.verb-span-1-header {
+  color: black;
+  font-size: 26px;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.verb-span-nav-1 {
+  color: black;
+  line-height: 1.14;
+}
+.verb-span-nav-2 {
+  color: #2196f3;
+  line-height: 1.14;
+}
+.verb-span-nav-3 {
+  line-height: 1.14;
+  color: black;
+}
+
+.nav-li-1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav-li-2 {
+  color: #2196f3;
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav-li-3 {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+.contacts-email {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.contacts-telefon {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.contacts-city {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.7;
+}
+.button {
+  background: #ffffff;
+}
+.span-button-section {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+footer {
+  background: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
