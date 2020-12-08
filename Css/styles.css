@@ -1,12 +1,18 @@
 body {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   letter-spacing: 0.03em;
 }
 a {
   text-decoration: none;
 }
-
+address {
+  font-style: normal;
+}
+header,
+footer,
+main {
+  font-family: Roboto, sans-serif;
+}
 .verb-span-header {
   color: #2196f3;
   font-family: Raleway;
@@ -63,6 +69,7 @@ header {
 }
 .up-main {
   background-color: #2f303a;
+  width: 1600px;
 }
 .h-section-1 {
   font-weight: 900;
