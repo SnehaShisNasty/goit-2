@@ -3,6 +3,7 @@
   --bg-footer: #2f303a;
   --bg-upmain: #2f303a;
   --font-f-address: normal;
+  --font-c-address: #757575;
 }
 body {
   font-style: normal;
@@ -59,13 +60,13 @@ main {
   font-weight: 500;
 }
 .contacts-email {
-  color: #757575;
+  color: var(--font-c-address);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
 .contacts-telefon {
-  color: #757575;
+  color: var(--font-c-address);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
