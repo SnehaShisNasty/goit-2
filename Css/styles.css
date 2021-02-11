@@ -1,3 +1,9 @@
+:root {
+  --bg-header: white;
+  --bg-footer: #2f303a;
+  --bg-upmain: #2f303a;
+  --font-f-address: normal;
+}
 body {
   font-style: normal;
   letter-spacing: 0.03em;
@@ -6,7 +12,7 @@ a {
   text-decoration: none;
 }
 address {
-  font-style: normal;
+  font-style: var(--font-f-adress);
 }
 header,
 footer,
@@ -65,10 +71,10 @@ main {
   line-height: 1.14;
 }
 header {
-  background-color: white;
+  background-color: var(--bg-header);
 }
 .up-main {
-  background-color: #2f303a;
+  background-color: var(--bg-upmain);
   width: 1600px;
 }
 .h-section-1 {
@@ -139,7 +145,7 @@ header {
 }
 
 footer {
-  background: #2f303a;
+  background: var(--bg-footer);
   width: 1600px;
   height: 252px;
 }
