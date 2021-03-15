@@ -3,15 +3,20 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --bg-color: #2f303a;
-  --font-family-logo: Raleway;
+  --font-family-logo: Raleway, sans-serif;
 }
 body {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 .logo {
   color: var(--accent-color);
+  font-family: var(--font-family-logo);
+}
+a {
+  text-decoration: none;
 }
 .nav .word {
   color: var(--title-text-color);
