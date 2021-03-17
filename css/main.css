@@ -1,12 +1,44 @@
 .hero {
   background-color: var(--bg-color);
 }
+.section > .hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  text-transform: uppercase;
+
+  text-align: center;
+}
 .section-title {
   color: var(--title-text-color);
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.7;
+
+  text-align: center;
 }
-.section > .heading {
-  color: #ffffff;
-}
-.feature-list .title {
+.feature-list .item-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature-list .item-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.card-heading {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }

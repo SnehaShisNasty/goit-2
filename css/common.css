@@ -4,7 +4,16 @@
   --accent-color: #2196f3;
   --bg-color: #2f303a;
   --font-family-logo: Raleway, sans-serif;
-  --logo-further-color: #ffffff
+  --logo-further-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.address {
+  font-style: normal;
 }
 body {
   background-color: #e5e5e5;
@@ -12,21 +21,26 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+.header {
+  background: #ffffff;
+}
 .logo {
   color: var(--accent-color);
   font-family: var(--font-family-logo);
-}
-a {
-  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
 }
 .nav .word {
   color: var(--title-text-color);
 }
-.list {
-  list-style: none;
-}
+
 .nav-list .nav-link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
 }
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
@@ -37,17 +51,18 @@ a {
 }
 .address-list .address-phone {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
 }
 .address-list .address-phone:hover,
 .address-list .address-phone:focus {
   color: var(--accent-color);
 }
-.address{
-  font-style: normal;
-}
-.footer{
+.footer {
   background-color: var(--bg-color);
 }
-footer > .logo > .word{
+footer > .logo > .word {
   color: var(--logo-further-color);
 }
