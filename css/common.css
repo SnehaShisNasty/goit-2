@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --bg-color: #2f303a;
   --font-family-logo: Raleway, sans-serif;
+  --logo-further-color: #ffffff
 }
 body {
   background-color: #e5e5e5;
@@ -40,4 +41,13 @@ a {
 .address-list .address-phone:hover,
 .address-list .address-phone:focus {
   color: var(--accent-color);
+}
+.address{
+  font-style: normal;
+}
+.footer{
+  background-color: var(--bg-color);
+}
+footer > .logo > .word{
+  color: var(--logo-further-color);
 }
